@@ -1,2 +1,0 @@
-/Users/admin/Documents/GitHub/crossPlatform3D/CMakeFiles/rebuild_cache.dir
-/Users/admin/Documents/GitHub/crossPlatform3D/CMakeFiles/edit_cache.dir
