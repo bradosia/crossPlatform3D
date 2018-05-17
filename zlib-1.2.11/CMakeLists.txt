@@ -27,8 +27,8 @@ set (IOS True)
 
 # Force the compilers to gcc for iOS
 include (CMakeForceCompiler)
-CMAKE_FORCE_C_COMPILER (clang clang)
-CMAKE_FORCE_CXX_COMPILER (clang++ clang++)
+CMAKE_FORCE_C_COMPILER (gcc gcc)
+CMAKE_FORCE_CXX_COMPILER (g++ g++)
 
 # Skip the platform compiler checks for cross compiling
 set (CMAKE_CXX_COMPILER_WORKS TRUE)
