@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/gcc  -arch armv7s  -arch $(ARCHS_STANDARD_32_BIT) -Wl,-headerpad_max_install_names  CMakeFiles/example.dir/test/example.o  -o /Library/Developer/CommandLineTools/usr/bin/gccexample libz.1.2.11.dylib 

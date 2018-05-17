@@ -1,0 +1,123 @@
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_bac8a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bac8a.dir/build.make CMakeFiles/cmTC_bac8a.dir/build
+Building C object CMakeFiles/cmTC_bac8a.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc   -arch armv7s   -arch    -o CMakeFiles/cmTC_bac8a.dir/CheckIncludeFile.c.o   -c /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_bac8a.dir/CheckIncludeFile.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_bac8a.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_bac8a/fast] Error 2
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_1be57/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1be57.dir/build.make CMakeFiles/cmTC_1be57.dir/build
+Building C object CMakeFiles/cmTC_1be57.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc   -arch armv7s   -arch    -o CMakeFiles/cmTC_1be57.dir/CheckIncludeFile.c.o   -c /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_1be57.dir/CheckIncludeFile.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_1be57.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_1be57/fast] Error 2
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_7f106/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f106.dir/build.make CMakeFiles/cmTC_7f106.dir/build
+Building C object CMakeFiles/cmTC_7f106.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc   -arch armv7s   -arch    -o CMakeFiles/cmTC_7f106.dir/CheckIncludeFile.c.o   -c /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_7f106.dir/CheckIncludeFile.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_7f106.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_7f106/fast] Error 2
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_25a79/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_25a79.dir/build.make CMakeFiles/cmTC_25a79.dir/build
+Building C object CMakeFiles/cmTC_25a79.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc -D_LARGEFILE64_SOURCE=1  -arch armv7s   -arch    -o CMakeFiles/cmTC_25a79.dir/OFF64_T.c.o   -c /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CheckTypeSize/OFF64_T.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_25a79.dir/OFF64_T.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_25a79.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_25a79/fast] Error 2
+
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CheckTypeSize/OFF64_T.c:
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_d45ab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d45ab.dir/build.make CMakeFiles/cmTC_d45ab.dir/build
+Building C object CMakeFiles/cmTC_d45ab.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc   -arch armv7s  -DCHECK_FUNCTION_EXISTS=fseeko -arch    -o CMakeFiles/cmTC_d45ab.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.11/Modules/CheckFunctionExists.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_d45ab.dir/CheckFunctionExists.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_d45ab.dir/CheckFunctionExists.c.o] Error 1
+make: *** [cmTC_d45ab/fast] Error 2
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Applications/Xcode.app/Contents/Developer/usr/bin/make" "cmTC_c0ae0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c0ae0.dir/build.make CMakeFiles/cmTC_c0ae0.dir/build
+Building C object CMakeFiles/cmTC_c0ae0.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/gcc   -arch armv7s   -arch    -o CMakeFiles/cmTC_c0ae0.dir/CheckIncludeFile.c.o   -c /Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+clang: error: no such file or directory: 'CMakeFiles/cmTC_c0ae0.dir/CheckIncludeFile.c.o'
+clang: error: invalid arch name '-arch -o'
+make[1]: *** [CMakeFiles/cmTC_c0ae0.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_c0ae0/fast] Error 2
+
+

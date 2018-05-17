@@ -1,0 +1,10 @@
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/rebuild_cache.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/edit_cache.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/zlibstatic.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/example.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/list_install_components.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/minigzip.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/install/local.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/test.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/install.dir
+/Users/admin/Documents/GitHub/crossPlatform3D/zlib-1.2.11/CMakeFiles/zlib.dir

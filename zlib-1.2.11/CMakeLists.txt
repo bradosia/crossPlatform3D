@@ -30,6 +30,9 @@ include (CMakeForceCompiler)
 CMAKE_FORCE_C_COMPILER (gcc gcc)
 CMAKE_FORCE_CXX_COMPILER (g++ g++)
 
+set (CC /Library/Developer/CommandLineTools/usr/bin/gcc)
+set (CMAKE_C_COMPILER /Library/Developer/CommandLineTools/usr/bin/gcc)
+
 # Skip the platform compiler checks for cross compiling
 set (CMAKE_CXX_COMPILER_WORKS TRUE)
 set (CMAKE_C_COMPILER_WORKS TRUE)
@@ -148,7 +151,7 @@ project(zlib C)
 set(VERSION "1.2.11")
 
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch armv7s ")
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch armv7s")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch armv7s ")
 
 option(ASM686 "Enable building i686 assembly implementation")
 option(AMD64 "Enable building amd64 assembly implementation")
